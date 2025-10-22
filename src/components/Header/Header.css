@@ -15,6 +15,35 @@
     height: 60px;
   }
   
+
+body.light {
+  /* background-color: #fff; */
+  color: #000;
+}
+
+
+body.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+.header.light {
+  background-color: rgb(8, 79, 45);
+}
+
+.header.dark {
+  background-color: #222;
+}
+
+.theme-toggle {
+  margin-left: 15px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
   .header .left-section {
     width: 208px;
   }
@@ -110,6 +139,9 @@
     align-items: center;
     padding-left: 13px;
     padding-right: 13px;
+  }
+  .header .orders-link.active{
+    text-decoration: underline;
   }
   
   .header .orders-text {
