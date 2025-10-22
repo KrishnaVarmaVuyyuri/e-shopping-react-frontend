@@ -1,5 +1,5 @@
 import { NavLink,useNavigate, useSearchParams } from 'react-router';
-import './header.css';
+import './Header.css';
 import { ThemeContext } from "../../ThemeContext";
 import { useContext, useState } from "react";
 
